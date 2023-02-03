@@ -18,4 +18,4 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /root/.cache/pip
 
-CMD [CMD tail -f /dev/null]
+CMD ["tail -f /dev/null"]
