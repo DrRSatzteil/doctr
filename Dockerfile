@@ -18,4 +18,4 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /root/.cache/pip
 
-CMD ["sleep infinity"]
+CMD ["sleep", "infinity"]
