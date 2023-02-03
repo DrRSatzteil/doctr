@@ -8,7 +8,7 @@ COPY ./pyproject.toml /tmp/pyproject.toml
 COPY ./README.md /tmp/README.md
 COPY ./setup.py /tmp/setup.py
 COPY ./doctr /tmp/doctr
-COPY ./references /tmp/doctr
+COPY ./references/ /tmp/doctr
 
 RUN apt-get update \
     && apt-get install --no-install-recommends ffmpeg libsm6 libxext6 -y \
